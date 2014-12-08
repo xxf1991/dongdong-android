@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@id/layout"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <ImageView android:id="@id/background"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:src="@drawable/ic_default_bg_private"
+               android:scaleType="fitXY"/>
+
+    <LinearLayout android:id="@+id/lyt_main"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:paddingLeft="10dp"
+                  android:paddingRight="10dp"
+                  android:background="@color/theme_bg_transparent">
+
+        <LinearLayout android:id="@+id/lyt_top"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/ic_arrow_down"/>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/h1"
+                        android:textColor="@color/black"
+                        android:text="小明"/>
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/mid_margin"
+                        android:layout_below="@id/name">
+                    <ImageView android:id="@id/sports1"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_sports_badminton"/>
+                    <ImageView android:id="@id/sports2"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/ic_sports_football"/>
+                    <ImageView android:id="@id/sports3"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"/>
+                    <ImageView android:id="@id/sports4"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"/>
+                    <ImageView android:id="@id/sports5"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <com.android.volley.toolbox.NetworkImageView
+                        android:id="@id/avatar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/mid_margin"
+                    android:gravity="center_vertical">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_edit"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.DD.BlockItem.Small"
+                        android:text="生命在于运动！加油！"/>
+            </LinearLayout>
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp"
+                    android:src="@drawable/divider_horizontal"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_profile_location"
+                            />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/TextAppearance.DD.BlockItem"
+                            android:text="浙江杭州"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_profile_age"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/TextAppearance.DD.BlockItem"
+                            android:text="24岁"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="0">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_profile_birthday"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/TextAppearance.DD.BlockItem"
+                            android:text="3月24日"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/divider_horizontal"/>
+
+        <LinearLayout android:id="@+id/lyt_bottom"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/max_margin">
+
+                <RelativeLayout
+                        android:id="@id/favorite"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_favorite"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="收藏"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@id/fans"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_fans"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="粉丝"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@id/campaign"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_campaign"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="活动"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@id/course"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_course"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="课程"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/max_margin">
+
+                <RelativeLayout
+                        android:id="@id/follow"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_follow"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="关注"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@id/contacts"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_contacts"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="联系人"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@id/gallery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_gallery"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="相册"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@id/setting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Widget.DD.GridItem">
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_private_setting"/>
+                    <TextView
+                            style="@style/TextAppearance.DD.GridItem.Right"
+                            android:text="设置"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

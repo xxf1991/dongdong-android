@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.DD.Block">
+
+        <RelativeLayout
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="新消息提醒"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/chat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem">
+            <TextView
+                style="@style/TextAppearance.DD.BlockItem.Left"
+                android:text="聊天"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/privacy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="隐私"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/general"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="通用"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/security"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="账号与安全"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/about"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="关于动动"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/exit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@drawable/btn_exit_bg_selector"
+            android:text="退出"
+            android:textSize="@dimen/h1"
+            android:textColor="@color/item_bg"
+            android:clickable="true"/>
+
+</LinearLayout>

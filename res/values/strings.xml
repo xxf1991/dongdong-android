@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">动动</string>
+
+    <!-- icon -->
+    <string name="location">位置</string>
+    <string name="contact">联系方式</string>
+    <string name="price">价格</string>
+
+    <!-- type of sports -->
+    <string name="sports_type">运动类型</string>
+    <string name="badminton">羽毛球</string>
+    <string name="yoga">瑜伽</string>
+    <string name="basketball">篮球</string>
+    <string name="dance">舞蹈</string>
+    <string name="swim">游泳</string>
+    <string name="billiards">桌球</string>
+
+    <!-- type of sorting -->
+    <string name="sort_type">默认排序</string>
+    <string name="sort_by_distance">优先最近</string>
+    <string name="sort_by_evaluation">优先好评</string>
+
+    <!-- choose district -->
+    <string name="district_type">地区选择</string>
+
+    <!-- job type -->
+    <string name="full_time">全职</string>
+    <string name="half_time">兼职</string>
+
+    <!-- other -->
+    <string name="loading">加载中</string>
+</resources>

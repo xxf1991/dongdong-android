@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="layout"/>
+    <item type="id" name="background"/>
+
+    <item type="id" name="sports1"/>
+    <item type="id" name="sports2"/>
+    <item type="id" name="sports3"/>
+    <item type="id" name="sports4"/>
+    <item type="id" name="sports5"/>
+
+    <item type="id" name="avatar"/>
+    <item type="id" name="name"/>
+    <item type="id" name="gender"/>
+    <item type="id" name="location"/>
+    <item type="id" name="age"/>
+
+    <item type="id" name="coach"/>
+    <item type="id" name="gym"/>
+    <item type="id" name="campaign"/>
+    <item type="id" name="favorite"/>
+    <item type="id" name="friend"/>
+    <item type="id" name="fans"/>
+    <item type="id" name="course"/>
+    <item type="id" name="follow"/>
+    <item type="id" name="contacts"/>
+    <item type="id" name="gallery"/>
+    <item type="id" name="setting"/>
+</resources>

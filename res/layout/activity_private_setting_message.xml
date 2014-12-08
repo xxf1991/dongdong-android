@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.DD.Block">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="接受新消息通知"/>
+            <com.example.dongdong.ui.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="声音"/>
+            <com.example.dongdong.ui.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="震动"/>
+            <com.example.dongdong.ui.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.DD.Block">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="哪些人可以看到我的动态"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="所有人"/>
+            <com.example.dongdong.ui.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="我关注的人"/>
+            <com.example.dongdong.ui.widget.SwitchButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.DD.Block">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="我可以收到哪些人的动态"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="所有人"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="我关注的人"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

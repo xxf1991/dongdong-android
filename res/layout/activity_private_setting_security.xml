@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.DD.Block">
+
+        <RelativeLayout
+                android:id="@+id/font_size"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="QQ号"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large.NoClickable">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="手机号"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="邮件地址"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.DD.Block">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.BlockItem.Large">
+            <TextView
+                    style="@style/TextAppearance.DD.BlockItem.Left"
+                    android:text="动动密码"/>
+            <ImageView
+                    style="@style/Widget.DD.Image.Arrow.Right"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

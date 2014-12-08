@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/Widget.DD.Block">
+        <LinearLayout android:id="@id/coach"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:background="@drawable/message_coach_bg_selector"
+                      style="@style/Widget.DD.BlockItem">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_message_coach"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/max_margin">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.DD.BlockItem"
+                        android:text="教练动态"/>
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.SubTitle"
+                        android:text="王小二加入了“杭州体育馆"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@id/gym"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:background="@drawable/message_gym_bg_selector"
+                      style="@style/Widget.DD.BlockItem">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_message_gym"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/max_margin">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.DD.BlockItem"
+                        android:text="场馆动态"/>
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.SubTitle"
+                        android:text="杭州体育馆发起了一项活动"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@id/campaign"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:background="@drawable/message_campaign_bg_selector"
+                      style="@style/Widget.DD.BlockItem">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_message_campaign"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/max_margin">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.DD.BlockItem"
+                        android:text="活动状态"/>
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.SubTitle"
+                        android:text="峰峰加入了“网球竞赛”活动"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@id/friend"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:background="@drawable/message_friend_bg_selector"
+                      style="@style/Widget.DD.BlockItem">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_message_friend"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/max_margin">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.DD.BlockItem"
+                        android:text="好友状态"/>
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.SubTitle"
+                        android:text="小福参加了“杭州骑行”活动"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:id="@id/follow"
+                      android:orientation="horizontal"
+                      android:layout_width="fill_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:gravity="center_vertical"
+                      android:background="@drawable/message_follow_bg_selector"
+                      style="@style/Widget.DD.BlockItem">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_message_follow"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/max_margin">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.DD.BlockItem"
+                        android:text="动动粉"/>
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.SubTitle"
+                        android:text="喔喔关注了你"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

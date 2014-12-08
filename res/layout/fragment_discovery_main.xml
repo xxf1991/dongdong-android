@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:id="@id/coach"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/discovery_coach_bg_selector"
+                android:clickable="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_discovery_coach"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_margin"
+                    style="@style/TextAppearance.DD.BlockItem"
+                    android:text="找教练"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@id/gym"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/discovery_gym_bg_selector"
+                android:clickable="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_discovery_gym"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_margin"
+                    style="@style/TextAppearance.DD.BlockItem"
+                    android:text="找场馆"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:id="@id/campaign"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/discovery_campaign_bg_selector"
+                android:clickable="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_discovery_campaign"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_margin"
+                    style="@style/TextAppearance.DD.BlockItem"
+                    android:text="找活动"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/release"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/discovery_release_bg_selector"
+                android:clickable="true">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_discovery_release"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/min_margin"
+                    style="@style/TextAppearance.DD.BlockItem"
+                    android:text="发布活动"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

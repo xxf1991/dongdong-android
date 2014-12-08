@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/theme_bg">
+
+    <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/coach_main_selector_height"
+            android:orientation="horizontal">
+        <RadioButton
+                android:id="@+id/rb_sports"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/sports_type"
+                style="@style/coach_main_selector_rb"/>
+        <RadioButton
+                android:id="@+id/rb_sort"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/sports_type"
+                style="@style/coach_main_selector_rb"/>
+        <RadioButton
+                android:id="@+id/rb_district"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/district_type"
+                style="@style/coach_main_selector_rb"/>
+    </RadioGroup>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+            <!--ptr:ptrAnimationStyle="flip"-->
+            <!--ptr:ptrMode="both"/>-->
+
+    <!-- Here is the view to show if the list is empty. -->
+    <ScrollView
+            android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    </ScrollView>
+</LinearLayout>

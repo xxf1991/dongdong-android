@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base color -->
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="transparent">#0000</color>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="grey">#888</color>
+    <color name="orange">#f80</color>
+
+    <!-- theme -->
+    <color name="theme_bg">#f0f0f0</color>
+    <color name="actionbar_bg">#50c28c</color>
+    <color name="actionbar_text">#f2f0ff</color>
+    <color name="actionbar_item_bg_pressed">#80dddddd</color>
+    <color name="item_bg">#fcfcfc</color>
+    <color name="item_bg_pressed">#808080</color>
+    <color name="theme_bg_transparent">#d0f0f0f0</color>
+
+    <!-- coach -->
+    <color name="coach_main_item_textColor1">#4c4c4c</color>
+    <color name="coach_main_item_textColor2">#999999</color>
+
+    <color name="coach_detail_textColor1">#4c4c4c</color>
+    <color name="coach_detail_textColor2">#999999</color>
+    <color name="coach_detail_textColor3">#ff8c14</color>
+    <color name="coach_detail_textColor4">#4c4c4c</color>
+    <color name="coach_detail_textColor5">#0fff40</color>
+    <color name="coach_detail_message_bg">#a6bef2</color>
+
+</resources>

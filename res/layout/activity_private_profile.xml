@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.Block">
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_bg_selector"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="昵称"/>
+                <TextView
+                        android:id="@+id/nickname"
+                        style="@style/TextAppearance.DD.BlockItem.Right"
+                        android:text="小明"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="运动标签"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.DD.Block">
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="运动签名"/>
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Right"
+                        android:text="生命在于运动，加油~"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="性别"/>
+                <TextView
+                        android:id="@id/gender"
+                        style="@style/TextAppearance.DD.BlockItem.Right"
+                        android:text="女"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="年龄"/>
+                <TextView
+                        android:id="@id/age"
+                        style="@style/TextAppearance.DD.BlockItem.Right"
+                        android:text="24岁"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="生日"/>
+                <TextView
+                        android:id="@+id/birthday"
+                        style="@style/TextAppearance.DD.BlockItem.Right"
+                        android:text="3月26日"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.DD.BlockItem">
+                <TextView
+                        style="@style/TextAppearance.DD.BlockItem.Left"
+                        android:text="地区"/>
+                <TextView
+                        android:id="@+id/district"
+                        style="@style/TextAppearance.DD.BlockItem.Right"
+                        android:text="浙江杭州"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

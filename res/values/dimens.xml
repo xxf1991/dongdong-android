@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h1">22sp</dimen>
+    <dimen name="h2">20sp</dimen>
+    <dimen name="h3">17sp</dimen>
+    <dimen name="h4">16sp</dimen>
+    <dimen name="h5">15sp</dimen>
+
+    <dimen name="min_margin">2dp</dimen>
+    <dimen name="mid_margin">5dp</dimen>
+    <dimen name="max_margin">10dp</dimen>
+
+    <dimen name="coach_main_selector_height">45dp</dimen>
+    <dimen name="coach_main_selector_textSize">16.4sp</dimen>
+
+    <dimen name="coach_main_list_padding">7dp</dimen>
+    <dimen name="coach_main_list_dividerHeight">10dp</dimen>
+
+    <dimen name="coach_main_item_img_width">80dp</dimen>
+    <dimen name="coach_main_item_img_height">80dp</dimen>
+    <dimen name="coach_main_item_img_margin">2dp</dimen>
+    <dimen name="coach_main_item_right_margin">5dp</dimen>
+    <dimen name="coach_main_item_margin1">5dp</dimen>
+    <dimen name="coach_main_item_textSize1">18sp</dimen>
+    <dimen name="coach_main_item_textSize2">13sp</dimen>
+    <dimen name="coach_main_item_gender_width">22dp</dimen>
+    <dimen name="coach_main_item_gender_height">22dp</dimen>
+
+    <dimen name="coach_detail_padding">7dp</dimen>
+    <dimen name="coach_detail_padding1">7dp</dimen>
+    <dimen name="coach_detail_img_width">96dp</dimen>
+    <dimen name="coach_detail_img_height">96dp</dimen>
+    <dimen name="coach_detail_img_margin">5dp</dimen>
+    <dimen name="coach_detail_margin1">8dp</dimen>
+    <dimen name="coach_detail_textSize1">20sp</dimen>
+    <dimen name="coach_detail_textSize2">17sp</dimen>
+    <dimen name="coach_detail_textSize3">16sp</dimen>
+    <dimen name="coach_detail_textSize4">15sp</dimen>
+    <dimen name="coach_detail_vertical_divider_width">30dp</dimen>
+    <dimen name="coach_detail_horizontal_divider_height1">1dp</dimen>
+    <dimen name="coach_detail_horizontal_divider_height2">12dp</dimen>
+    <dimen name="coach_detail_icon_width1">24dp</dimen>
+    <dimen name="coach_detail_icon_height1">24dp</dimen>
+    <dimen name="coach_detail_icon_width2">48dp</dimen>
+    <dimen name="coach_detail_icon_height2">48dp</dimen>
+    <dimen name="coach_detail_gender_width">24dp</dimen>
+    <dimen name="coach_detail_gender_height">24dp</dimen>
+    <dimen name="coach_detail_message_height">48dp</dimen>
+</resources>
