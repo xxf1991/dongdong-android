@@ -9,10 +9,7 @@ import android.widget.RadioGroup;
 import android.widget.TabHost;
 import com.example.dongdong.R;
 import com.example.dongdong.ui.adapter.TabsAdapter;
-import com.example.dongdong.ui.fragment.BaseFragment;
-import com.example.dongdong.ui.fragment.DiscoveryMainFragment;
-import com.example.dongdong.ui.fragment.MessageMainFragment;
-import com.example.dongdong.ui.fragment.PrivateMainFragment;
+import com.example.dongdong.ui.fragment.*;
 import com.example.dongdong.util.ToastUtils;
 
 import java.util.Map;
@@ -36,7 +33,7 @@ public class MainActivity extends BaseActivity {
 
         TabsAdapter tabsAdapter = new TabsAdapter(this, mTabGroup, viewPager);
 
-        tabsAdapter.add(R.id.tab_news, BaseFragment.class, null);
+        tabsAdapter.add(R.id.tab_news, NewsMainFragment.class, null);
         tabsAdapter.add(R.id.tab_discovery, DiscoveryMainFragment.class, null);
         tabsAdapter.add(R.id.tab_message, MessageMainFragment.class, null);
         tabsAdapter.add(R.id.tab_private, PrivateMainFragment.class, null);

@@ -64,5 +64,9 @@
         <activity android:name="com.example.dongdong.ui.PrivateSettingAboutActivity"
                   android:label="关于动动">
         </activity>
+
+        <activity android:name=".ui.PrivateSettingGenralCleanActivity"
+                  android:label="清理缓存空间">
+        </activity>
     </application>
 </manifest>
