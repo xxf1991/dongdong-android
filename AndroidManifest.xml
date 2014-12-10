@@ -30,7 +30,8 @@
         <meta-data android:name="com.amap.api.v2.apikey"
                    android:value="96fcbf0e1d77f772b90f4ec544e10398"/>
 
-        <activity android:name="com.example.dongdong.ui.MainActivity">
+        <activity android:name="com.example.dongdong.ui.MainActivity"
+                  android:theme="@style/Theme.DD.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

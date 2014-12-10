@@ -7,14 +7,18 @@
     <style name="Widget.DD" parent="Widget">
     </style>
 
-    <style name="Widget.DD.actionbar" parent="Widget.Sherlock.ActionBar">
-        <item name="background">@color/actionbar_bg</item>
+    <style name="Widget.DD.Actionbar" parent="Widget.Sherlock.ActionBar">
         <item name="android:background">@color/actionbar_bg</item>
         <item name="titleTextStyle">@style/TextAppearance.DD.Actionbar</item>
         <item name="android:titleTextStyle" tools:ignore="NewApi">@style/TextAppearance.DD.Actionbar</item>
         <item name="displayOptions">showHome|homeAsUp|showTitle</item>
         <item name="android:displayOptions" tools:ignore="NewApi">showHome|homeAsUp|showTitle</item>
         <item name="android:icon">@color/transparent</item>
+    </style>
+    <style name="Widget.DD.Actionbar.Main">
+        <item name="displayOptions">showHome|showTitle</item>
+        <item name="android:displayOptions" tools:ignore="NewApi">showHome|showTitle</item>
+        <item name="android:icon">@drawable/actionbar_icon_main</item>
     </style>
 
     <!-- Block -->
